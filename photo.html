@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摄影服务 - 澳门影像打印馆</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="container">
+            <!-- Header -->
+            <header class="header">
+                <a href="home.html" class="logo">
+                    <img src="images/second-stage.webp" alt="MUSTEP 印像" class="header-logo-img">
+                </a>
+
+                <nav class="nav-desktop">
+                    <a href="print.html" class="nav-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 6 2 18 2 18 9" />
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+                            <rect width="12" height="8" x="6" y="14" />
+                        </svg> 打印
+                    </a>
+                    <a href="photo.html" class="nav-btn active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
+                            <circle cx="12" cy="13" r="3" />
+                        </svg> 照相
+                    </a>
+                    <a href="location.html" class="nav-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg> 预约外景跟拍
+                    </a>
+                </nav>
+            </header>
+
+            <!-- Mobile Tabs -->
+            <div class="mobile-tabs">
+                <a href="print.html" class="mobile-tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 6 2 18 2 18 9" />
+                        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+                        <rect width="12" height="8" x="6" y="14" />
+                    </svg> <span>打印</span>
+                </a>
+                <a href="photo.html" class="mobile-tab active">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
+                        <circle cx="12" cy="13" r="3" />
+                    </svg> <span>照相</span>
+                </a>
+                <a href="location.html" class="mobile-tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
+                    </svg> <span>外景</span>
+                </a>
+            </div>
+
+            <main class="main-content">
+                <!-- Photo Section -->
+                <section id="photo-section">
+                    <div class="section-header">
+                        <h2 class="section-title-center">摄影服务</h2>
+                        <p class="section-subtitle-center">专业影棚，定格你的完美高光时刻</p>
+                    </div>
+
+                    <div class="service-grid">
+                        <!-- Service 1 -->
+                        <div class="service-card">
+                            <div class="service-icon-bg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
+                                    <circle cx="12" cy="13" r="3" />
+                                </svg>
+                            </div>
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+                                    <circle cx="9" cy="9" r="2" />
+                                    <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
+                                </svg>
+                            </div>
+                            <h3 class="service-name">精致证件照</h3>
+                            <p class="service-desc">多底色可选，包含精修、高质量冲印及电子档。</p>
+                            <div class="service-footer">
+                                <span class="service-price">78<span class="service-unit">MOP</span></span>
+                            </div>
+                        </div>
+
+                        <!-- Service 2 -->
+                        <div class="service-card">
+                            <div class="service-icon-bg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
+                                </svg>
+                            </div>
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
+                                </svg>
+                            </div>
+                            <h3 class="service-name">潮流创意大头照</h3>
+                            <p class="service-desc">展现独特个性，创意打光与构图，拒绝平庸。</p>
+                            <div class="service-footer">
+                                <span class="service-price">108<span class="service-unit">MOP</span></span>
+                            </div>
+                        </div>
+
+                        <!-- Service 3 -->
+                        <div class="service-card service-card-dark">
+                            <div class="service-icon-bg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
+                                    <circle cx="12" cy="13" r="3" />
+                                </svg>
+                            </div>
+                            <div class="service-icon service-icon-dark">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
+                                    <circle cx="12" cy="13" r="3" />
+                                </svg>
+                            </div>
+                            <h3 class="service-name service-name-dark">室内定制个人写真</h3>
+                            <p class="service-desc service-desc-dark">一对一专属企划，定制你的高级棚拍大片。</p>
+                            <div class="service-footer">
+                                <span class="service-price service-price-dark">388<span
+                                        class="service-unit service-unit-dark">MOP</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Gallery -->
+                    <div class="portfolio-section">
+                        <h3 class="portfolio-title">作品案例</h3>
+
+                        <!-- Portfolio 1: 精致证件照 - 左向右 -->
+                        <div class="portfolio-item">
+                            <h4 class="portfolio-item-title">精致证件照</h4>
+                            <div class="portfolio-scroll scroll-left">
+                                <div class="portfolio-track">
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/1.png" alt="证件照案例1" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/2.jpeg" alt="证件照案例2" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/3.jpeg" alt="证件照案例3" class="portfolio-img">
+                                    </div>
+                                    <!-- Duplicate for seamless loop -->
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/1.png" alt="证件照案例1" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/2.jpeg" alt="证件照案例2" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/3.jpeg" alt="证件照案例3" class="portfolio-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio 2: 潮流创意大头照 - 右向左 -->
+                        <div class="portfolio-item">
+                            <h4 class="portfolio-item-title">潮流创意大头照</h4>
+                            <div class="portfolio-scroll scroll-right">
+                                <div class="portfolio-track">
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/4.webp" alt="创意大头照案例1" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/5.webp" alt="创意大头照案例2" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/6.webp" alt="创意大头照案例3" class="portfolio-img">
+                                    </div>
+                                    <!-- Duplicate for seamless loop -->
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/4.webp" alt="创意大头照案例1" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/5.webp" alt="创意大头照案例2" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/6.webp" alt="创意大头照案例3" class="portfolio-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio 3: 室内定制个人写真 - 左向右 -->
+                        <div class="portfolio-item">
+                            <h4 class="portfolio-item-title">室内定制个人写真</h4>
+                            <div class="portfolio-scroll scroll-left">
+                                <div class="portfolio-track">
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/7.webp" alt="个人写真案例1" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/8.webp" alt="个人写真案例2" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/9.webp" alt="个人写真案例3" class="portfolio-img">
+                                    </div>
+                                    <!-- Duplicate for seamless loop -->
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/7.webp" alt="个人写真案例1" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/8.webp" alt="个人写真案例2" class="portfolio-img">
+                                    </div>
+                                    <div class="portfolio-img-wrapper">
+                                        <img src="images/case/9.webp" alt="个人写真案例3" class="portfolio-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- WeChat QR Code Section -->
+                <section class="wechat-section">
+                    <div class="wechat-content">
+                        <div class="wechat-info">
+                            <h3 class="wechat-title">加入微信群抽 1 MOP 优惠券</h3>
+                            <p class="wechat-desc">扫码加入微信群，参与每日抽奖活动，有机会获得 1 MOP 摄影服务优惠券</p>
+                        </div>
+                        <div class="wechat-qr">
+                            <div class="qr-placeholder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <rect width="5" height="5" x="3" y="3" rx="1" />
+                                    <rect width="5" height="5" x="16" y="3" rx="1" />
+                                    <rect width="5" height="5" x="3" y="16" rx="1" />
+                                    <path d="M21 16h-3a2 2 0 0 0-2 2v3" />
+                                    <path d="M21 21v.01" />
+                                    <path d="M12 7v3a2 2 0 0 1-2 2H7" />
+                                    <path d="M3 12h.01" />
+                                    <path d="M12 3h.01" />
+                                    <path d="M12 16v.01" />
+                                    <path d="M16 12h1" />
+                                    <path d="M21 12v.01" />
+                                    <path d="M12 21v-1" />
+                                </svg>
+                                <span>微信群二维码</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <p class="footer-text">© 2026 MUSTEP 印像. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
